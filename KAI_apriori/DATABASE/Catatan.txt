@@ -1,0 +1,16 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+----------------------------------------------------------------------------------------------------
+
+ANALISIS POLA PELAYANAN LOGISTIK PADA PT KAI (BALAI YASA MANGGARAI) MENGGUNAKAN ALGORITMA APRIORI
+Pelampiran ->
+
+1. Tipe file excel berformat Excel 97-2003 Worksheet (.xls) / Excel 2003
+2. Data Penelitian adalah hasil observasi data yang terdapat di PT. KAI ( Balai Yasa Manggarai )
+
+Colum : Invoice Tanggal	Barang
+		
+----------------------------------------------------------------------------------------------------
+
+Terimakasih By Fiky Ari Wijaya 4520210095 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+----------------------------------------------------------------------------------------------------
