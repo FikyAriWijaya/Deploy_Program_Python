@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAIVE BAYES IRIS-SET</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{url_for('static', filename='halaman.css')}}" />
+</head>
+<body>
+    <div class="container contact-form">
+        <div class="contact-image">
+            <img src="{{ url_for('static', filename='Bunga.jpg') }}" alt="Bunga Iris"/>
+        </div>
+        <form action ='{{ url_for('Predict') }}' method="post">
+            <h3>Klasifikasi Bunga</h3>
+           <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" name="sepal_length" class="form-control" placeholder="sepal_length" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="sepal_width" class="form-control" placeholder="sepal_width" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="petal_length" class="form-control" placeholder="petal_length" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="petal_width" class="form-control" placeholder="petal_width" value="" />
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Hasil Prediksi : </h3>
+                    <br>
+                    <h3>{{prediction_text}}</h3>
+                    <!-- Hasil prediksi akan ditampilkan di sini -->
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>
